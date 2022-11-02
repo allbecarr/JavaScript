@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+
+    <style> 
+        body{
+            background-color: rgb(96, 159, 246);
+            color: white;
+            font: normal 20px Arial;
+            /* Comentário em CSS */
+        }
+        h2{
+            color: rgb(242, 218, 132);
+        }
+
+        h3{
+            color: rgb(255, 252, 174);
+        }
+    </style>
+</head>
+<body>
+   <h2>Exercício 03</h2><!-- Comentário em HTML -->
+   <h3>Variáveis e tipos de dados.</h3>
+   
+   <script>
+      //var n1 = parseInt(prompt('Digite um número: '));
+      //var n2 = parseInt(prompt('Digite outro número: '));
+      
+      //    Só outro jeito de fazer as coisas...
+      
+      var n1 = Number(prompt('Digite um número: '));
+      var n2 = Number(prompt('Digite outro número: '));
+      
+      var soma = n1 + n2;
+      //alert(n1 + ' mais ' + n2 + ' é igual a ' + soma);
+      //alert(n1 + ' mais ' + n2 + ' é igual a ' + soma.toString());
+      //alert(n1 + ' mais ' + n2 + ' é igual a ' + String(soma));
+      alert(`${n1} mais ${n2} é igual a ${soma}`);
+   </script>
+
+</body>
+</html>
